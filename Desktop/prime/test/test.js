@@ -19,16 +19,16 @@ describe("primeNumbers() for invalid inputs", function() {
 describe("primeNumbers() for valid inputs", function() {
     it("8", function() {
 
-        expected = [2, 3, 5];
+        expected = [2, 3, 5,7];
 
-        expect(primeNumbers(5).toString()).to.equal(expected.toString());
+        expect(primeNumbers(8).toString()).to.equal(expected.toString());
     });
 
     it("20", function() {
 
         expected = [2, 3, 5, 7, 11, 13, 17, 19];
 
-        expect(primeNumbers(19).toString()).to.equal(expected.toString());
+        expect(primeNumbers(20).toString()).to.equal(expected.toString());
     });
 
 
