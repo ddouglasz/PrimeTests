@@ -1,0 +1,26 @@
+{
+  "name": "primnumbers",
+  "version": "1.0.0",
+  "description": "A function to generate prime numbers between 0 to n. Uses Mocha and Chai for testing",
+  "main": "../app/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "prime",
+    "numbers",
+    "javascript"
+  ],
+  "author": "Lawal Lanre E. (larrystone)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
