@@ -11,7 +11,7 @@
     "numbers",
     "javascript"
   ],
-  "author": "Lawal Lanre E. (larrystone)",
+  "author": "Douglas Egiemeh",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.0.2",
